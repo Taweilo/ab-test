@@ -7,7 +7,7 @@
 
 Badge [source](https://shields.io/)
 
- <img src="https://www.convertize.com/wp-content/uploads/2021/01/what-is-split-ab-testing-hero.jpg" width="1100" height="450">
+ <img src="https://www.convertize.com/wp-content/uploads/2021/01/what-is-split-ab-testing-hero.jpg" width="550" height="200">
 
 
 ```
