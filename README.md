@@ -41,9 +41,20 @@ The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: kaggle ht
 1. check missing data
 2. create click-through rate (CTR)
   
-## 4. Statistical testing   
+## 4. Statistical testing    
+Now we will run A/B testing for CTR.
+For A/B testing to be applied, the data set must satisfy the Normality and Variance homogeneity assumptions.
+If normality and variance homogeneity is provided, an independent two-sample t-test (parametric test) is applied.
+If normality and homogeneity of variance are not provided, the Mann-Whitney U test (non-parametric test) is performed. How to check the assumption of normality? In this, we will first determine the H0 and H1 hypotheses.
 
+1. Shapiro-Wilk test
+- H0: The assumption of normality is provided.
+- H1: The assumption of normality is not provided. Now let's check the assumption of normality.
+
+2. Mann-Whitney U test
+- H0: There is no significant difference between the two groups in terms of click rate to the desired page.
+- H1: There is a difference.
 
 ## 5. Evaluation
-MSE in test data: 2193848415.96
-R2 score: 0.57
+While the average conversion rate was 3.46% in the Control group, this rate increased to 3.86% in the Test group. 
+As a result of our tests, we can say that this rate increase is not accidental, but has been proven statistically.
