@@ -12,24 +12,20 @@ Badge [source](https://shields.io/)
 ```
 ├── Image                       
 │
-├── Code_USA_House_Price_Prediction.ipynb             <- code
-├── LICENSE                                           <- MIT license
+├── Code_A_B_test.ipynb                               <- code
 ├── README.md                                         <- read me
-├── housing_price_dataset.csv                         <- dataset
-├── USA_House_Price_Prediction_Report                 <- presentation
-
+├── ab_test_results_aggregated_views_clicks_2.csv     <- dataset
 
 ```
 
 ## 1. Business Understanding
-The goal of this project is to 
+Via the Hypothesis testing, we can evaluate which feature has a better performance.
 
 ## 2. Data Understanding 
 The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: kaggle https://www.kaggle.com/datasets/sergylog/ab-test-aggregated-data
- (also please see   attached). Basic data analysis was performed to identify the shape of data, get column names, find missing values, and generate descriptive statistics. The pair plot demonstrated the relationship between variables. The distribution of the target variable was shown.
+ (also please see ab_test_results_aggregated_views_clicks_2.csv attached). 
 
-* Data Dictionary
- 
+* Data Dictionary 
 | Name | Measurement Level| Description |
 | ----  | ---------------- | ---------- |
 | **user_id**  | int | user unique id |
