@@ -57,6 +57,6 @@ If normality and homogeneity of variance are not provided, the Mann-Whitney U te
 
 ## 5. Evaluation
 1. The Shapiro-Wilk Test suggests the data set does not follow the Normality and Variance homogeneity assumptions.
-2. The Mann-Whitney U test suggests CTR is a difference between the control and test groups. 
+2. The Mann-Whitney U test suggests CTR is a difference between the control and test groups. <br>
 While the average conversion rate was 3.46% in the Control group, this rate increased to 3.86% in the Test group. 
 As a result of our tests, we can say that this rate increase is not accidental, but has been proven statistically.
