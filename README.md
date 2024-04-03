@@ -25,7 +25,8 @@ Via the Hypothesis testing, we can evaluate which feature has a better performan
 The Diabetes dataset was loaded via Colab. The dataset is from Kaggle: kaggle https://www.kaggle.com/datasets/sergylog/ab-test-aggregated-data
  (also please see ab_test_results_aggregated_views_clicks_2.csv attached). 
 
-* Data Dictionary 
+* Data Dictionary
+  
 | Name | Measurement Level| Description |
 | ----  | ---------------- | ---------- |
 | **user_id**  | int | user unique id |
